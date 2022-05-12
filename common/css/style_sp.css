@@ -1,0 +1,490 @@
+@charset "UTF-8";
+@media screen and (max-width: 750px) {
+  .pc {
+    display: none; }
+
+  .concept_icon {
+    width: 25vw;
+    height: 25vw;
+    background-image: url("../../images/cafe_pc-comp-assets/sample.png");
+    background-size: 40vw;
+    display: inline-block;
+    position: absolute;
+    top: 0; }
+
+  #concept_icon_rightTop {
+    top: 3vw;
+    left: 73vw; }
+
+  #concept_icon_rightBottom {
+    transform: rotate(90deg);
+    top: 145vw;
+    left: 67.5vw; }
+
+  #concept_icon_leftTop {
+    transform: rotate(-90deg);
+    top: -1.6vw;
+    left: 6.3vw; }
+
+  #concept_icon_leftBottom {
+    transform: rotate(-180deg);
+    left: 2.1vw;
+    top: 140vw; }
+
+  header {
+    width: 100vw;
+    height: 68px;
+    background-color: rgba(255, 250, 222, 0.85);
+    position: absolute;
+    z-index: 10; }
+
+  .header_logo_sp img {
+    width: auto;
+    height: 55px;
+    margin-top: 7px; }
+
+  #header_message {
+    z-index: 30;
+    position: absolute;
+    top: 34.5px;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #674e4e;
+    white-space: nowrap; }
+
+  .sp_slide {
+    position: relative; }
+    .sp_slide img {
+      /*　width: 100vw;にするとレイアウト崩れる */
+      width: 100%;
+      position: absolute;
+      transition: 2s ease-in-out;
+      opacity: 0; }
+    .sp_slide img.show {
+      opacity: 1; }
+
+  .nav-wrapper {
+    display: none; }
+    .nav-wrapper .fade {
+      display: block; }
+
+  .menu-trigger {
+    position: relative;
+    float: right;
+    z-index: 20;
+    top: -54px;
+    width: 44px;
+    height: 44px;
+    border: solid;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fff; }
+    .menu-trigger span {
+      position: absolute;
+      left: 9px;
+      width: 26px;
+      height: 2.8px;
+      background-color: #e5b730;
+      border-radius: 5px;
+      z-index: 30; }
+      .menu-trigger span:nth-of-type(1) {
+        top: 13px; }
+      .menu-trigger span:nth-of-type(2) {
+        top: 21px; }
+      .menu-trigger span:nth-of-type(3) {
+        top: 29px; }
+
+  #scroll_down {
+    position: absolute;
+    top: 90vw;
+    right: 7.5%; }
+
+  #scroll_down span {
+    position: absolute;
+    top: -10vw;
+    right: 7.5%;
+    font-size: 3vw;
+    color: #fffade;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg); }
+
+  #scroll_down::after {
+    content: "";
+    /*描画位置*/
+    position: absolute;
+    right: 0.3vw;
+    /*線の形状*/
+    width: 0.2vw;
+    height: 50vw;
+    background: #fffade;
+    /*線の動き1.4秒かけて動く。永遠にループ*/
+    animation: pathmove 2s ease-in-out infinite;
+    opacity: 0; }
+
+  @keyframes pathmove {
+    0% {
+      height: 0;
+      top: 0;
+      opacity: 0; }
+    30% {
+      height: 25vw;
+      opacity: 1; }
+    100% {
+      height: 0;
+      top: 50vw;
+      opacity: 0; } }
+  #header_inner {
+    width: 85vw;
+    margin: 0 auto; } }
+.concept {
+  position: relative; }
+  .concept img {
+    width: 100vw; }
+
+#seasonal_biggerIllust img {
+  position: absolute;
+  z-index: 30;
+  top: -243vw;
+  left: 12.5vw;
+  width: 18vw; }
+
+#seasonal_biggerIllust_combine {
+  position: relative; }
+
+#seasonal_biggerIllust_inner {
+  background-image: url("../../images/cafe_pc-comp-assets/add_sprite.png");
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 50vw;
+  background-size: 36vw 36vw;
+  position: absolute;
+  top: -241.4vw;
+  left: 17.6vw;
+  z-index: 200;
+  background-position: 0 -24vw; }
+
+#seasonal_button_sp {
+  width: 40vw;
+  height: 7vw;
+  background-color: #e5b730;
+  text-align: center;
+  line-height: 7vw;
+  color: #fff;
+  border: solid 0.5vw #fff;
+  border-radius: 1vw;
+  position: absolute;
+  top: 220vw;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  font-size: 3vw; }
+
+.seasonal_sp {
+  position: relative; }
+
+.seasonal_img_sp img {
+  width: 75vw;
+  margin: 1vw auto 2vw auto; }
+
+.seasonal_img_sp {
+  border: solid 2px #f9d1e2;
+  border-radius: 1vw;
+  background-color: #fffade;
+  height: 60vw;
+  width: 80vw;
+  margin: 0 auto; }
+  .seasonal_img_sp:nth-of-type(2) {
+    line-height: 10vw; }
+
+#seasonal_flex_sp p {
+  font-size: 3.733vw;
+  margin-left: 11vw;
+  margin-top: 1vw;
+  line-height: 7vw; }
+
+#seasonal_flex_sp {
+  display: flex;
+  gap: 4%;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  width: 100vw;
+  height: 180vw; }
+
+.seasonal_bg_sp img {
+  width: 100vw;
+  opacity: 0.25; }
+
+.main_menu_head_sp {
+  text-align: center;
+  color: #ddb328;
+  font-size: 6vw;
+  margin-top: 6vw; }
+
+.main_menu_headSub_sp {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 1vw;
+  line-height: 6.5vw; }
+
+.main_menu_text_color {
+  color: #e77506; }
+
+.main_menu_icon_sp {
+  width: 48vw;
+  height: 15vw;
+  background-image: url("../../images/cafe_pc-comp-assets/add_sprite.png");
+  background-position: 0 -5vw;
+  background-size: 40vw 40vw;
+  background-repeat: no-repeat;
+  margin: -3vw auto 0 29vw; }
+
+#main_menu_button_sp {
+  width: 38vw;
+  height: 7vw;
+  background-color: #e5b730;
+  text-align: center;
+  line-height: 7vw;
+  color: #fff;
+  border: solid 0.5vw #fff;
+  border-radius: 1vw;
+  margin: 6vw auto 8vw auto; }
+  #main_menu_button_sp:p {
+    font-size: 3vw; }
+
+.main_menu_list img {
+  width: 85vw;
+  margin: 0 auto; }
+
+.main_menu_list p {
+  text-align: center; }
+  .main_menu_list p:nth-of-type(3) {
+    line-height: 6vw;
+    font-size: 3vw;
+    margin-top: -5vw; }
+
+.sp #main_menu_note {
+  width: 59.3vw;
+  margin: 4vw auto 3vw auto;
+  white-space: nowrap;
+  font-size: 3vw; }
+
+.sub_menu_img_sp {
+  position: relative; }
+
+.sub_menu_flex {
+  display: flex;
+  justify-content: center;
+  gap: 6vw; }
+
+.sub_menu_img_sp img {
+  width: 35vw; }
+
+.sub_menu_img_sp p {
+  position: absolute;
+  top: 14vw;
+  color: #ddb328;
+  left: 9.5vw;
+  font-size: 5vw; }
+
+.entrance_img_sp img {
+  width: 100vw; }
+
+.drink_list_flex_sp {
+  display: flex;
+  justify-content: center;
+  gap: 20vw;
+  margin-top: 1.5vw;
+  margin-bottom: 5vw; }
+
+.drink_sweets_icon_sp p::before {
+  content: "";
+  display: inline-block;
+  width: 4vw;
+  height: 4vw;
+  background-image: url("../../images/cafe_pc-comp-assets/add_sprite.png");
+  background-size: 25vw 28vw;
+  background-repeat: no-repeat;
+  background-position: 0 -14vw;
+  transform: translateY(1vw); }
+
+.footer_bg_sp > img {
+  width: 100vw;
+  opacity: 70%; }
+
+.footer_bg_sp {
+  position: relative; }
+
+.footer_logo_sp img {
+  width: 18vw;
+  margin: 0 auto; }
+
+.footer_logo_sp {
+  width: 100vw;
+  margin-top: 10vw; }
+
+.footer_list_sp {
+  position: absolute;
+  top: 0vw; }
+
+.sp #tel {
+  font-size: 4.7vw;
+  text-align: center;
+  margin-top: 6vw; }
+
+.sp #tel span {
+  color: #ddb328; }
+
+.footer_list_top_sp {
+  margin-left: 5vw; }
+
+.footer_right_text_head_sp::before {
+  content: "";
+  display: inline-block;
+  width: 4vw;
+  height: 4vw;
+  background-image: url("../../images/cafe_pc-comp-assets/add_sprite.png");
+  background-size: 25vw 28vw;
+  background-repeat: no-repeat;
+  background-position: 0 -14vw;
+  transform: translateY(0.2em); }
+
+.footer_right_text_head_sp {
+  margin-left: 44vw;
+  margin-top: 7vw; }
+
+.footer_right_text_head_inner {
+  margin-left: 20vw; }
+
+.footer_info_inner_top {
+  margin-top: 1.6vw; }
+
+#text_Tuesday {
+  margin-left: 48vw; }
+
+#text_time {
+  margin-left: 38vw; }
+
+.footer_text_sp {
+  font-size: 3.5vw; }
+
+footer h3 {
+  text-align: center;
+  line-height: 15vw;
+  margin-top: 4vw;
+  margin-bottom: 1vw; }
+
+#footer_flex_sp {
+  display: flex;
+  justify-content: center; }
+
+#footer_flex_sp li {
+  margin-bottom: 7vw; }
+
+#footer_flex_sp_left {
+  margin-right: 15vw;
+  margin-left: -2.5vw; }
+
+#footer_sub_menu_flex_sp {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin-top: 3vw;
+  margin-left: 6vw; }
+
+#copy {
+  text-align: center;
+  line-height: 15vw; }
+
+.drink_list_sp p, .sweets_list_sp p {
+  line-height: 8vw; }
+
+.concept_text_sp {
+  width: 100vw;
+  height: auto; }
+
+#menu_head_sp {
+  line-height: 1.8em;
+  margin: 0.3em 0 0.6em 0;
+  text-align: center;
+  position: relative; }
+  #menu_head_sp::after {
+    content: '';
+    position: absolute;
+    top: 1.7em;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 0%;
+    height: 0.04em;
+    background: #000;
+    z-index: -1;
+    transition: all 2.5s; }
+  #menu_head_sp.isActive::after {
+    width: 7em; }
+
+#seasonal_head_sp {
+  position: absolute;
+  top: -3vw;
+  right: 6vw;
+  left: 0;
+  margin: 0 auto;
+  color: #f76cb7;
+  font-size: 5vw;
+  text-align: center;
+  line-height: 3.8em;
+  margin-left: 23%; }
+
+#seasonal_message_sp {
+  position: absolute;
+  top: 11vw;
+  line-height: 1.5em;
+  white-space: nowrap;
+  width: 70vw;
+  text-align: center;
+  margin-left: 23.7vw;
+  font-size: 3vw; }
+
+.seasonal_icon_sp01 {
+  width: 3.8vw;
+  height: 4vw;
+  background-image: url("../../images/cafe_pc-comp-assets/add_sprite.png");
+  background-size: 28vw;
+  position: absolute;
+  top: 3.3vw;
+  left: 15vw; }
+
+.seasonal_icon_sp02 {
+  width: 3.8vw;
+  height: 4vw;
+  background-image: url("../../images/cafe_pc-comp-assets/add_sprite.png");
+  background-size: 28vw;
+  position: absolute;
+  top: 69.3vw;
+  left: 15vw; }
+
+.seasonal_icon_sp03 {
+  width: 3.8vw;
+  height: 4vw;
+  background-image: url("../../images/cafe_pc-comp-assets/add_sprite.png");
+  background-size: 28vw;
+  position: absolute;
+  top: 128.5vw;
+  left: 14.5vw; }
+
+.concept_text_sp h2 {
+  position: absolute;
+  top: 12vw;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-size: 4vw;
+  white-space: nowrap; }
+  .concept_text_sp h2 + p {
+    position: absolute;
+    top: 22vw;
+    left: 50vw;
+    white-space: nowrap;
+    font-size: 3vw;
+    line-height: 3em;
+    transform: translate(-50%, 0); }
