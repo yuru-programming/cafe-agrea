@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,6 @@
     <link rel="stylesheet" href="common/css/style_sp.css">
     <title>カフェ「アグレア」</title>
 </head>
-
 <body>
     <header>
         <div id="header_inner">
@@ -29,308 +27,220 @@
                 <span class="trigger_span"></span>
                 <span class="trigger_span"></span>
             </div>
-            <div class="nav-wrapper">
-                <nav>
-                    <ul class="nav_list">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </nav>
-            </div>
+        </div>
+        <div class="nav-wrapper">
+            <nav class="toggle_menu">
+                <ul class="nav_list font_courgette">
+                    <li class="top-concept"><a class="decoration_none" href="#">Top</a></li>
+                    <li class="top-concept"><a class="decoration_none" href="#">Concept</a></li>
+                    <li class="toggle_menu-menu">Menu&nbsp;<span>-</span></li>
+                    <li id="toggle_standard" class="standard-seasonal"><a href="#">Standard</a></li>
+                    <li class="toggle_main-menu"><a href="#">Lunch</a>&nbsp;(11:00-14:00)</li>
+                    <li class="toggle_main-menu"><a href="#">Evening</a>&nbsp;(18:00-L.O.)</li>
+                    <li class="toggle_main-menu"><a href="#">Morning</a>&nbsp;(8:00-11:00)</li>
+                    <li id="toggle_seasonal" class="standard-seasonal"><a href="#">Seasonal</a></li>
+                    <li>
+                      <ul class="toggle_flex">
+                        <li><a id="toggle_sub_drink" href="#">Drink</a></li>
+                        <li><a id="toggle_sub_sweets" href="#">Sweets</a></li>
+                      </ul>
+                    </li>
+                    <li class="shopInfo_button font_courgette"><p><a class="shopInfo_underline" href="#">Shop Info</a></p></li>
+                </ul>
+            </nav>
         </div>
         <!--hamburger menu end-->
-
     </header>
     <main>
-        <h1 class="pc pc_slide">
+        <div class="pc pc_slide">
             <img src="images/cafe_pc-comp-assets/main-img1.jpg" alt="店内">
             <img src="images/cafe_pc-comp-assets/main-img.jpg" alt="ホットサンド">
             <img src="images/cafe_pc-comp-assets/main-img2.jpg" alt="いちごサンド">
             <img src="images/cafe_pc-comp-assets/main-img3.jpg" alt="パスタ">
-            <div id="scroll_down">
+            <div id="scroll_down_pc">
                 <span>scroll</span>
             </div>
-        </h1>
-        <h1 class="sp sp_slide">
+        </div>
+        <div class="sp sp_slide">
             <img src="images/cafe_sp-comp-assets/main-img.jpg" alt="フルーツサンド">
             <img src="images/cafe_sp-comp-assets/main-img1.jpg" alt="店内">
             <img src="images/cafe_sp-comp-assets/main-img2.jpg" alt="パスタ">
             <img src="images/cafe_sp-comp-assets/main-img3.jpg" alt="クロワッサンサンド">
-            <div id="scroll_down">
+            <div id="scroll_down_sp">
                 <span>scroll</span>
             </div>
-        </h1>
+        </div>
         <section class="concept">
-            <div class="pc">
-                <img src="images/cafe_pc-comp-assets/concept-img.jpg" alt="コンセプト">
-            </div>
-            <div class="sp">
-                <img src="images/cafe_sp-comp-assets/concept_img.jpg" alt="コンセプト">
-            </div>
-
-            <div id="concept_icon_rightTop" class="concept_icon"></div>
-            <div id="concept_icon_rightBottom" class="concept_icon"></div>
-            <div id="concept_icon_leftTop" class="concept_icon"></div>
-            <div id="concept_icon_leftBottom" class="concept_icon"></div>
-
-
-            <div class="pc concept_text_pc">
+            <div class="concept_pc">
+                <div id="concept_icon_rightTop" class="concept_icon"></div>
+                <div id="concept_icon_rightBottom" class="concept_icon"></div>
+                <div id="concept_icon_leftTop" class="concept_icon"></div>
+                <div id="concept_icon_leftBottom" class="concept_icon"></div>
                 <h2>カフェ・アグレアで贅沢なひと時を</h2>
-                <p class="regularFonts">当店は様々な日常を送る皆様にとって、気軽にホッと<br>一息がつける、
-                    そしてちょっと贅沢な時間が過ごせる<br>場所であるための空間作りを
-                    大切にしています。<br>ランチ、イブニング、モーニング、季節限定など、定<br>番以外のメニューも豊富で飽きの来ないよう心がけて<br>います。
-                    カフェ・アグレアが皆様の気を休められる場<br>所となりますように。<br>
-                    ご来店を心よりお待ちしております。</p>
-            </div>
-            <div class="sp concept_text_sp">
-                <h2>カフェ・アグレアで贅沢なひと時を</h2>
-                <p class="regularFonts">
-                    当店は様々な日常を送る皆様<br>にとって、気軽にホッと一息<br>がつける、そしてちょっと贅<br>沢な時間が過ごせる場所であ<br>るための空間作りを大切にし<br>ています。ランチ、イブニン<br>グ、モーニング、季節限定な<br>ど、定番以外のメニューも豊<br>富で飽きの来ないよう心がけ<br>ています。
-                    <br>カフェ・アグレアが皆様の気<br>を休められる場所となります<br>ように。<br>
-                    ご来店を心よりお待ちしてお<br>ります。
-                </p>
+                <p class="regularFonts">当店は様々な日常を送る皆様にとって、気軽にホッと一息がつける、
+                    そしてちょっと贅沢な時間が過ごせる場所であるための空間作りを
+                    大切にしています。ランチ、イブニング、モーニング、季節限定など、定番以外のメニューも豊富で飽きの来ないよう心がけています。
+                    カフェ・アグレアが皆様の気を休められる場所となりますように。<br>
+                    <span class="concept_lastText">ご来店を心よりお待ちしております。</span>
             </div>
         </section>
-
-        <h2 id="menu_head_sp" class="sp font_courgette">MENU</h2>
-        <h2 id="menu_head_pc" class="pc font_courgette">MENU</h2>
-
-        <section class="sp seasonal_sp">
-            <div class="sp seasonal_bg_sp">
-                <img src="images/cafe_sp-comp-assets/spring_bg-img.jpg" alt="春の背景">
-            </div>
-            <div id="seasonal_biggerIllust_combine">
-                <div id="seasonal_biggerIllust">
-                    <img src="images/cafe_sp-comp-assets/back-illust.png" alt="桜">
+        <section class="seasonal_pc">
+            <div class="seasonal_bg">
+                <div id="seasonal_biggerIllust_combine">
+                    <div id="seasonal_biggerIllust">
+                        <img src="images/cafe_pc-comp-assets/cherryblossom.png" alt="桜">
+                    </div>
+                    <div id="seasonal_biggerIllust_inner_pc"></div>
                 </div>
-                <div id="seasonal_biggerIllust_inner"></div>
-            </div>
-            <p id="seasonal_head_sp" class="font_courgette">Spring Menu</p>
-            <p id="seasonal_message_sp">さくら、いちご、新じゃがを使った<br>料理で幸せな春の味</p>
-
-            <div id="seasonal_flex_sp">
-                <div class="sp seasonal_img_sp">
-                    <p>さくらクッキーといちごミルクの<br>セット</p>
-                    <div class="seasonal_icon_sp01"></div>
-                    <img src="images/cafe_sp-comp-assets/spring-img.jpg" alt="さくらクッキーといちごミルクのセット">
-                </div>
-                <div class="sp seasonal_img_sp">
-                    <p>さくらとバナナのロールケーキ</p>
-                    <div class="seasonal_icon_sp02"></div>
-                    <img src="images/cafe_sp-comp-assets/spring-img 1.jpg" alt="さくらのロールケーキ">
-                </div>
-                <div class="sp seasonal_img_sp">
-                    <p>新じゃがを使ったポテトグラタ<br>ンとパンのセット</p>
-                    <div class="seasonal_icon_sp03"></div>
-                    <img src="images/cafe_sp-comp-assets/spring-img2.jpg" alt="新じゃがを使ったポテトグラタンとパンのセット">
-                </div>
-            </div>
-
-            <div id="seasonal_button_sp">
-                <p>季節限定をもっと見る</p>
-            </div>
-        </section>
-
-        <section class="pc seasonal_pc">
-            <div class="pc seasonal_bg">
-                <img src="images/cafe_pc-comp-assets/spring_bg-img.jpg" alt="春の背景">
-            </div>
-            <div id="seasonal_biggerIllust_combine">
-                <div id="seasonal_biggerIllust">
-                    <img src="images/cafe_sp-comp-assets/back-illust.png" alt="桜">
-                </div>
-                <div id="seasonal_biggerIllust_inner_pc"></div>
-
-            </div>
-            </div>
-            <p id="seasonal_head_pc" class="font_courgette">Spring Menu</p>
-            <p id="seasonal_message_pc">さくら、いちご、新じゃがを使った料理で幸せな春の味</p>
-            <div class="pc seasonal_flex_pc">
-                <div class="pc seasonal_img_pc">
-                    <div class="seasonal_inner_flex">
-                        <div class="seasonal_img_left">
-                            <img src="images/cafe_pc-comp-assets/spring-img.jpg" alt="さくらクッキーといちごミルクのセット">
+                <h2 id="seasonal_head_pc" class="font_courgette">Spring Menu</h2>
+                <p id="seasonal_message_pc">さくら、いちご、新じゃがを使った<br class="sp">料理で幸せな春の味</p>
+                <div class="seasonal_flex_pc">
+                    <div class="seasonal_img_pc">
+                        <div class="seasonal_inner_flex seasonal_inner_flex_first">
+                            <div class="seasonal_img_left order1">
+                                <img src="images/cafe_pc-comp-assets/spring-img.jpg" alt="さくらクッキーといちごミルクのセット">
+                            </div>
+                            <div id="seasonal_text_right01" class="seasonal_text_right order2">
+                                <p class="seasonal_textbox">さくらクッキーと<br class="pc">いちごミルクのセット</p>
+                                <div class="seasonal_icon"></div>
+                                <div class="seasonal_icon"></div>
+                            </div>
                         </div>
-                        <div id="seasonal_text_right01" class="seasonal_text_right">
-                            <p>さくらクッキーと<br>いちごミルクのセット</p>
-                            <div class="seasonal_icon"></div>
-                            <div class="seasonal_icon"></div>
+                    </div>
+                    <div class="seasonal_img_pc">
+                        <div class="seasonal_inner_flex">
+                            <div id="seasonal_text_left">
+                                <p class="seasonal_textbox">さくらとバナナの<br class="pc">ロールケーキ</p>
+                                <div class="seasonal_icon"></div>
+                                <div class="seasonal_icon"></div>
+                            </div>
+                            <div id="seasonal_img_right">
+                                <img src="images/cafe_pc-comp-assets/spring-img1.jpg" alt="さくらのロールケーキ">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="seasonal_img_pc">
+                        <div class="seasonal_inner_flex">
+                            <div class="seasonal_img_left order1">
+                                <img src="images/cafe_pc-comp-assets/spring-img2.jpg" alt="新じゃがを使ったポテトグラタンとパンのセット">
+                            </div>
+                            <div id="seasonal_text_right02" class="seasonal_text_right">
+
+                                <p class="seasonal_textbox order2">新じゃがを使った<br class="pc">ポテトグラタンとパンのセット</p>
+                                <div id="seasonal_icon_031" class="seasonal_icon_03"></div>
+                                <div id="seasonal_icon_032" class="seasonal_icon_03"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="pc seasonal_img_pc">
-
-                    <div class="seasonal_inner_flex">
-                        <div id="seasonal_text_left">
-                            <p>さくらとバナナの<br>ロールケーキ</p>
-                            <div class="seasonal_icon"></div>
-                            <div class="seasonal_icon"></div>
-                        </div>
-                        <div id="seasonal_img_right">
-                            <img src="images/cafe_pc-comp-assets/spring-img1.jpg" alt="さくらのロールケーキ">
-                        </div>
-                    </div>
-                </div>
-                <div class="pc seasonal_img_pc">
-                    <div class="seasonal_inner_flex">
-                        <div class="seasonal_img_left">
-                            <img src="images/cafe_pc-comp-assets/spring-img2.jpg" alt="新じゃがを使ったポテトグラタンとパンのセット">
-                        </div>
-                        <div id="seasonal_text_right02" class="seasonal_text_right">
-                            <p>新じゃがを使った<br>ポテトグラタン<br>とパンのセット</p>
-                            <div id="seasonal_icon_031" class="seasonal_icon_03"></div>
-                            <div id="seasonal_icon_032" class="seasonal_icon_03"></div>
-                        </div>
-                    </div>
+                <div id="seasonal_button_pc">
+                    <a href="#">季節限定をもっと見る</a>
                 </div>
             </div>
-
-            <div id="seasonal_button_pc">
-                <p>季節限定をもっと見る</p>
-            </div>
         </section>
-
-        <section class="main_menu sp">
-            <ul>
-                <li class="main_menu_list">
-                    <p class="font_courgette main_menu_head_sp">Standard Menu</p>
-                    <p class="main_menu_headSub_sp">いつでもオーダー可能な定番メニュー!</p>
-                    <img src="images/cafe_sp-comp-assets/standard-img.jpg" alt="定番メニュー">
-                    <div class="main_menu_icon_sp"></div>
-                    <p>カフェ・アグレアの定番メニューは<br>どの時間帯でも注文可能。パスタや<br>ドリアなど計12種類のメニューを取り揃<br>えています。<span
-                            class="main_menu_text_color">ちょっと食べたい時やた<br>くさん食べたい時も、いつでもオススメ<br>です。</span></p>
-                </li>
-                <li class="main_menu_list">
-                    <p class="font_courgette main_menu_head_sp">Lunch Menu</p>
-                    <p class="main_menu_headSub_sp">昼限定(11:00〜14:00)</p>
-                    <img src="images/cafe_sp-comp-assets/lunch-img.jpg" alt="ランチメニュー">
-                    <div class="main_menu_icon_sp"></div>
-                    <p>11:00〜14:00限定で5種類のランチ<br>プレートをご用意しております。<br>その日の気分に合わせて選ぶのが楽し<br>い、具材が豊富なプレート料理です。<br><span
-                            class="main_menu_text_color">ゆったりとしたランチタイムをお過ごし<br>ください。</span></p>
-                </li>
-                <li class="main_menu_list">
-                    <p class="font_courgette main_menu_head_sp">Evening Menu</p>
-                    <p class="main_menu_headSub_sp">夜(18:00〜L.O.時間)限定</p>
-                    <img src="images/cafe_sp-comp-assets/evening-img.jpg" alt="イブニングメニュー">
-                    <div class="main_menu_icon_sp"></div>
-                    <p>18:00〜L.O.(ラストオーダー時間)限定の<br>夕食メニューではグラタンやリゾットの<br>セットを4種類ご用意しております。<span
-                            class="main_menu_text_color">がっ<br>つり食べてしまいがちな夜に、消化に良<br>い満足感のあるお食事を。</span></p>
-                </li>
-                <li class="main_menu_list">
-                    <p class="font_courgette main_menu_head_sp">Morning Menu</p>
-                    <p class="main_menu_headSub_sp">朝(8:00〜11:00限定)</p>
-                    <img src="images/cafe_sp-comp-assets/morning-img.jpg" alt="モーニングメニュー">
-                    <div class="main_menu_icon_sp"></div>
-                    <p>8:00〜11:00限定の朝食メニューでは<br>野菜たっぷりサンドイッチとスープ<br>のセットを3種類用意しております。<br>一日のスタートは朝食から。<span
-                            class="main_menu_text_color">朝にぴっ<br>たりのヘルシーなメニューです。</span></p>
-                </li>
-            </ul>
-            <p id="main_menu_note">※14:00〜17:00のお食事は定番メニュー<br>のみのご提供となります。</p>
-            <div id="menu_button">
-                <p id="main_menu_button_sp">料金一覧</p>
-            </div>
-        </section>
-        <section class="main_menu pc">
+        <section class="main_menu">
             <ul>
                 <li class="main_menu_img_pc">
-                    <p class="font_courgette main_menu_head_pc">Standard Menu</p>
+                    <h2 class="font_courgette main_menu_head_pc">Standard Menu</h2>
                     <p class="main_menu_headSub_pc">いつでもオーダー可能な定番メニュー!</p>
-                    <div class="main_menu_icon_pc main_menu_icon_pc01"></div>
+                    <div class="pc main_menu_icon_pc main_menu_icon_pc01"></div>
                     <div class="main_menu_flex">
-                        <img src="images/cafe_sp-comp-assets/standard-img.jpg" alt="定番メニュー">
-                        <p>カフェ・アグレアの定番メニューはどの時間帯でも注文可能。<br>パスタやドリアなど計12種類のメニューを取り揃えています。<br><span
-                                class="main_menu_text_color">ちょっと食べたい時やたくさん食べたい時も、いつで<br>もオススメす。</span></p>
+                        <div class="main_menu_img_whole">
+                            <img src="images/cafe_sp-comp-assets/standard-img.jpg" alt="定番メニュー">
+                        </div>
+                        <div class="main_menu_text_whole">
+                            <p class="main_menu_textbox">カフェ・アグレアの定番メニューは<br class="sp">どの時間帯でも注文可能。<br
+                                    class="pc">パスタや<br class="sp">ドリアなど計12種類のメニューを取り揃<br class="sp">えています。
+                                <span class="main_menu_text_color"><br class="pc">ちょっと食べたい時やた<br
+                                        class="sp">くさん食べたい時も、いつで<br class="pc">もオススメ<br class="sp">です。</span>
+                            </p>
+                        </div>
                     </div>
                 </li>
                 <li class="main_menu_img_pc">
                     <p class="font_courgette main_menu_head_pc">Lunch Menu</p>
                     <p class="main_menu_headSub_pc">昼限定(11:00〜14:00)</p>
-                    <div class="main_menu_icon_pc"></div>
+                    <div class="pc main_menu_icon_pc"></div>
                     <div class="main_menu_flex">
-                        <p>11:00〜14:00限定で5種類のランチプレートをご用意しており<br>ます。その日の気分に合わせて選ぶのが楽しい、具材が豊富な<br>プレート料理です。<br><span
-                                class="main_menu_text_color">ゆったりとしたランチタイムをお過ごしください。</span></p>
-                        <img src="images/cafe_sp-comp-assets/lunch-img.jpg" alt="ランチメニュー">
+                        <div class="main_menu_text_whole main_menu_order2">
+                            <p class="main_menu_textbox">11:00〜14:00限定で5種類のランチ<br class="sp">プレートをご用意しており<br
+                                    class="pc">ます。<br class="sp">その日の気分に合わせて選ぶのが楽し<br class="sp">い、具材が豊富な<br
+                                    class="pc">プレート料理です。<br class="sp"><span class="main_menu_text_color"><br
+                                    class="pc">ゆったりとしたランチタイムをお過ごし<br class="sp">ください。</span></p>
+                        </div>
+                        <div class="main_menu_order1">
+                            <img src="images/cafe_sp-comp-assets/lunch-img.jpg" alt="ランチメニュー">
+                        </div>
                     </div>
                 </li>
                 <li class="main_menu_img_pc">
                     <p class="font_courgette main_menu_head_pc">Evening Menu</p>
                     <p class="main_menu_headSub_pc">夜(18:00〜L.O.時間)限定</p>
-                    <div class="main_menu_icon_pc main_menu_icon_pc03"></div>
+                    <div class="pc main_menu_icon_pc main_menu_icon_pc03"></div>
                     <div class="main_menu_flex">
-                        <img src="images/cafe_sp-comp-assets/evening-img.jpg" alt="イブニングメニュー">
-                        <p>18:00〜L.O.(ラストオーダー時間)限定の夕食メニューではグラ<br>タンやリゾットのセットを4種類ご用意しております。<br><span
-                                class="main_menu_text_color">がっつり食べてしまいがちな夜に、消化に良い満足感のある<br>お食事を</span></p>
+                        <div>
+                            <img src="images/cafe_sp-comp-assets/evening-img.jpg" alt="イブニングメニュー">
+                        </div>
+                        <div class="main_menu_text_whole">
+                            <p class="main_menu_textbox">18:00〜L.O.(ラストオーダー時間)限定の<br class="sp">夕食メニューではグラ<br
+                                    class="pc">タンやリゾットの<br class="sp">セットを4種類ご用意しております。<span
+                                    class="main_menu_text_color"><br class="pc">がっ<br class="sp">つり食べてしまいがちな夜に、消化に良<br
+                                    class="sp">い満足感のある<br class="pc">お食事を。</span></p>
+                        </div>
                     </div>
                 </li>
                 <li class="main_menu_img_pc">
                     <p class="font_courgette main_menu_head_pc">Morning Menu</p>
                     <p class="main_menu_headSub_pc">朝(8:00〜11:00限定)</p>
-                    <div class="main_menu_icon_pc"></div>
+                    <div class="pc main_menu_icon_pc"></div>
                     <div class="main_menu_flex">
-                        <p>8:00〜11:00限定の朝食メニューでは野菜たっぷりサンドイ<br>ッチとスープのセットを3種類用意しております。一日の<br>スタートは朝食から。<br><span
-                                class="main_menu_text_color">朝にぴったりのヘルシーなメニューです。</span></p>
-                        <img src="images/cafe_sp-comp-assets/morning-img.jpg" alt="モーニングメニュうー">
+                        <div class="main_menu_text_whole main_menu_order2">
+                            <p class="main_menu_textbox">8:00〜11:00限定の朝食メニューでは<br class="sp">野菜たっぷりサンドイ<br
+                                    class="pc">ッチとスープ<br class="sp">のセットを3種類用意しております。<br class="sp">一日の<br
+                                    class="pc">スタートは朝食から。<br class="pc"><span class="main_menu_text_color">朝にぴっ<br
+                                    class="sp">たりのヘルシーなメニューです。</span>
+                            </p>
+                        </div>
+                        <div class="main_menu_order1">
+                            <img src="images/cafe_sp-comp-assets/morning-img.jpg" alt="モーニングメニュー">
+                        </div>
                     </div>
                 </li>
             </ul>
-            <p id="main_menu_note">※14:00〜17:00のお食事は定番メニューのみのご提供となります。</p>
+            <p id="main_menu_note">※14:00〜17:00のお食事は定番メニュー<br class="sp">のみのご提供となります。</p>
             <div id="menu_button">
-                <p id="main_menu_button_pc">料金一覧</p>
+                <a href="#" id="main_menu_button_pc">料金一覧</a>
             </div>
         </section>
-
         <section id="sub_menu">
-            <ul class="sub_menu_flex">
-                <li class="sp sub_menu_img_sp">
-                    <img src="images/cafe_sp-comp-assets/drink_img.png" alt="ドリンク">
-                    <p class="font_courgette">Drink</p>
-                </li>
-                <li class="sp sub_menu_img_sp">
-                    <img src="images/cafe_sp-comp-assets/sweets_img.png" alt="スイーツ">
-                    <p class="font_courgette">Sweets</p>
-                </li>
-            </ul>
-            <div class="drink_list_flex_sp">
-                <ul class="sp drink_list_sp">
-                    <li class="drink_sweets_icon_sp">
-                        <p>紅茶・お茶類</p>
-                    </li>
-                    <li class="drink_sweets_icon_sp">
-                        <p>コーヒー</p>
-                    </li>
-                    <li class="drink_sweets_icon_sp">
-                        <p>ソフトドリンク</p>
-                    </li>
-                </ul>
-                <ul class="sp sweets_list_sp">
-                    <li class="drink_sweets_icon_sp">
-                        <p>ケーキ</p>
-                    </li>
-                    <li class="drink_sweets_icon_sp">
-                        <p>ムース</p>
-                    </li>
-                    <li class="drink_sweets_icon_sp">
-                        <p>焼き菓子</p>
-                    </li>
-                </ul>
+            <div class="sub_menu_flex">
+                <h2 class="sp sub_menu_img_sp">
+                    <img src="images/cafe_sp-comp-assets/drink_img.png" alt="ドリンク画像">
+                    <img src="images/cafe_pc-comp-assets/Drink.png" alt="ドリンクテキスト">
+                </h2>
+                <h2 class="sp sub_menu_img_sp">
+                    <img src="images/cafe_sp-comp-assets/sweets_img.png" alt="スイーツ画像">
+                    <img src="images/cafe_pc-comp-assets/Sweets.png" alt="スイーツテキスト">
+                </h2>
             </div>
-        </section>
-        <section>
             <div class="sub_menu_combine">
                 <ul class="pc sub_menu_img_pc">
-                    <li id="sub_menu_img_01">
-                        <img src="images/cafe_pc-comp-assets/Drink_image.png" alt="ドリンク">
+                    <li id="sub_menu_img_left">
+                        <img src="images/cafe_pc-comp-assets/Drink_image.png" alt="ドリンク画像">
                     </li>
-                    <li id="sub_menu_img_02">
-                        <img src="images/cafe_pc-comp-assets/Sweets_image.png" alt="スイーツ">
+                    <li id="sub_menu_img_right">
+                        <img src="images/cafe_pc-comp-assets/Sweets_image.png" alt="スイーツ画像">
                     </li>
-                    <p class="font_courgette sub_menu_text">Sweets</p>
-                    <p class="font_courgette sub_menu_text">Drink</p>
+                    <li id="drink_img_pc">
+                        <img src="images/cafe_pc-comp-assets/Drink.png" alt="ドリンクテキスト">
+                    </li>
+                    <li id="sweets_img_pc">
+                        <img src="images/cafe_pc-comp-assets/Sweets.png" alt="スイーツテキスト">
+                    </li>
                 </ul>
             </div>
             <div id="sub_menu_list_flex">
-                <ul class="pc drink_list_pc">
+                <ul class="drink_list_pc">
                     <li class="drink_sweets_icon_pc">
                         <p>紅茶・お茶類</p>
                     </li>
@@ -341,7 +251,7 @@
                         <p>ソフトドリンク</p>
                     </li>
                 </ul>
-                <ul class="pc sweets_list_pc">
+                <ul class="sweets_list_pc">
                     <li class="drink_sweets_icon_pc">
                         <p>ケーキ</p>
                     </li>
@@ -355,186 +265,95 @@
             </div>
         </section>
     </main>
-
     <footer>
-        <div class="pc entrance_img_pc">
-            <img src="images/cafe_pc-comp-assets/entrance_image.jpg" alt="入口">
-        </div>
-
-        <div class="pc footer_whole">
-            <div class="pc footer_bg_pc">
-                <img src="images/cafe_pc-comp-assets/footer_bg.jpg" alt="背景">
-            </div>
-            <div class="pc fotter_list">
-
-                <div id="footer_firstflex_pc">
-
-                    <div id="footer_firstflex_left_pc">
-                        <div id="footer_logo_pc">
-                            <img src="images/cafe_pc-comp-assets/footer_logo_pc.png" alt="ロゴ">
+        <div class="entrance_img_pc"></div>
+        <div class="footer_whole">
+            <div class="footer_bg_pc">
+                <div class="fotter_list">
+                    <div id="footer_firstflex_pc">
+                        <div id="footer_firstflex_left_pc">
+                            <div id="footer_logo_pc">
+                                <img src="images/cafe_pc-comp-assets/footer_logo_pc.png" alt="ロゴ">
+                            </div>
+                            <p id="tel">TEL: <span>080-XXXX-XXXX</span></p>
                         </div>
-                        <p id="tel">TEL: <span>080-XXXX-XXXX</span></p>
-                    </div>
 
-                    <div id="footer_firstflex_right_pc">
-                        <ul>
+                        <div id="footer_firstflex_right_pc">
+                            <ul id="footer_firstList">
+                                <li>
+                                    <p class="footer_right_text_head">住所</p>
+                                    <p class="footer_right_text_head_inner">〒XXX-XXXX
+                                        <br>○○県○○市○○区○丁目XXXXX
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="footer_right_text_head">アクセス</p>
+                                    <p id="text_access" class="footer_right_text_head_inner">○○駅から徒歩5分</p>
+                                </li>
+                                <li>
+                                    <p class="footer_right_text_head">営業時間</p>
+                                    <p class="footer_right_text_head_inner">平日:9:00-21:00
+                                        (L.O.20:00)<br>土・日・祝日:9:00-20:00 (L.O.19:00)</p>
+                                </li>
+                                <li>
+                                    <p class="footer_right_text_head">定休日</p>
+                                    <p id="text_Tuesday" class="footer_right_text_head_inner">火曜日</p>
+                                </li>
+                                <li>
+                                    <p class="footer_right_text_head">支払い方法</p>
+                                    <p class="footer_right_text_head_inner">現金、カード(VISA, Master, JCB)、<br
+                                            class="pc">PayPay、LINE Pay</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h3 id="footer_menu_head_pc">MENU</h3>
+                    <div id="footer_menu_flex">
+                        <div class="footer_menu_list_pc">
+                            <ul class="footer_menu_list_sp">
                             <li>
-                                <p class="footer_right_text_head">住所</p>
-                                <p>〒XXX-XXXX</p>
-                                <p>○○県○○市○○区○丁目XXXXX</p>
+                                <p><a href="#">定番メニュー</a></p>
                             </li>
                             <li>
-                                <p class="footer_right_text_head">アクセス</p>
-                                <p>○○駅から徒歩5分</p>
+                                <p><a href="#">季節限定</a></p>
                             </li>
                             <li>
-                                <p class="footer_right_text_head">営業時間</p>
-                                <p>平日:9:00-21:00 (L.O.20:00)</p>
-                                <p>土・日・祝日:9:00-20:00 (L.O.19:00)</p>
+                                <p><a href="#">ランチ</a></p>
                             </li>
                             <li>
-                                <p class="footer_right_text_head">定休日</p>
-                                <p>火曜日</p>
+                                <p id="footer_menu_evening"><a href="#">イブニング</a></p>
+                            </li>
+                            </ul>
+                            <ul class="footer_menu_list_sp">
+                            <li>
+                                <p><a href="#">モーニング</a></p>
                             </li>
                             <li>
-                                <p class="footer_right_text_head">支払い方法</p>
-                                <p>現金、カード(VISA, Master, JCB)、<br>PayPay、LINE Pay</p>
+                                <p id="footer_menu_drink" class="footer_indent_drink_pc"><a href="#">ドリンク</a></p>
+                            </li>
+                            <li>
+                                <p class="footer_indent_sweets_pc"><a href="#">スイーツ</a></p>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="footer_sub_list_pc">
+                        <ul id="footer_sub_list_pc_inner">
+
+                            <li id="footer_shopInfo">
+                                <p><a href="#">店舗情報</a></p>
+                            </li>
+                            <li id="footer_goTop">
+                                <p><a href="#">トップページへ</a></p>
                             </li>
                         </ul>
                     </div>
-
-                </div>
-                <h3 id="footer_menu_head_pc">MENU</h3>
-
-                <ul class="footer_menu_list_pc">
-                    <li>
-                        <p><a href="#">定番メニュー</a></p>
-                    </li>
-                    <li>
-                        <p><a href="#">季節限定</a></p>
-                    </li>
-                    <li>
-                        <p><a href="#">ランチ</a></p>
-                    </li>
-                    <li>
-                        <p><a href="#">イブニング</a></p>
-                    </li>
-                </ul>
-                <ul class="footer_menu_list_pc">
-                    <li>
-                        <p><a href="#">モーニング</a></p>
-                    </li>
-                    <li>
-                        <p class="footer_indent_drink_pc"><a href="#">ドリンク</a></p>
-                    </li>
-                    <li>
-                        <p class="footer_indent_sweets_pc"><a href="#">スイーツ</a></p>
-                    </li>
-                </ul>
-
-                <div id="footer_sub_list_pc">
-                    <ul id="footer_sub_list_pc_inner">
-
-                        <li>
-                            <p><a href="#">店舗情報</a></p>
-                        </li>
-                        <li>
-                            <p><a href="#">トップページへ</a></p>
-                        </li>
-                    </ul>
-                </div>
-                <p id="footer_copyright"><small>&copy; CAFE AGREA</small></p>
-            </div>
-        </div>
-
-        <div class="sp entrance_img_sp">
-            <img src="images/cafe_sp-comp-assets/entrance_image.jpg" alt="入口">
-        </div>
-
-        <div class="sp footer_whole_sp">
-            <div class="sp footer_bg_sp">
-                <img src="images/cafe_sp-comp-assets/footer_bg.jpg" alt="背景">
-
-                <div class="sp footer_list_sp">
-                    <div class="sp footer_logo_sp">
-                        <img src="images/cafe_pc-comp-assets/footer_logo_pc.png" alt="ロゴ">
-                    </div>
-                    <p class="footer_text_sp" id="tel">TEL: <span>080-XXXX-XXXX</span></p>
-                    <div id="footer_info_sp">
-                        <ul class="footer_info_ul_sp">
-                            <li class="footer_info_text">
-                                <p class="footer_right_text_head_sp footer_text_sp">住所</p>
-                                <p class="footer_right_text_head_inner footer_info_inner_top footer_text_sp">〒XXX-XXXX</p>
-                                <p class="footer_right_text_head_inner footer_text_sp">○○県○○市○○区○丁目XXXXX</p>
-                            </li>
-                            <li class="footer_info_text">
-                                <p class="footer_right_text_head_sp footer_text_sp">アクセス</p>
-                                <p id="text_time" class="footer_right_text_head_inner footer_info_inner_top footer_text_sp">○○駅から徒歩5分
-                                </p>
-                            </li>
-                            <li class="footer_info_text">
-                                <p class="footer_right_text_head_sp footer_text_sp">営業時間</p>
-                                <p class="footer_right_text_head_inner footer_info_inner_top footer_text_sp">平日:9:00-21:00 (L.O.20:00)
-                                </p>
-                                <p class="footer_right_text_head_inner footer_text_sp">土・日・祝日:9:00-20:00 (L.O.19:00)</p>
-                            </li>
-                            <li class="footer_info_text">
-                                <p class="footer_right_text_head_sp footer_text_sp">定休日</p>
-                                <p id="text_Tuesday" class="footer_right_text_head_inner footer_info_inner_top footer_text_sp">火曜日</p>
-                            </li>
-                            <li class="footer_info_text">
-                                <p class="footer_right_text_head_sp footer_text_sp">支払い方法</p>
-                                <p class="footer_right_text_head_inner footer_info_inner_top footer_text_sp">現金、カード(VISA, Master,
-                                    JCB)、<br>PayPay、LINE Pay</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <h3>MENU</h3>
-                    <div id="footer_flex_sp">
-                        <ul id="footer_flex_sp_left">
-                            <li>
-                                <p class="footer_text_sp"><a href="#">定番メニュー</a></p>
-                            </li>
-                            <li>
-                                <p class="footer_text_sp"><a href="#">ランチ</a></p>
-                            </li>
-                            <li>
-                                <p class="footer_text_sp"><a href="#">イブニング</a></p>
-                            </li>
-                            <li>
-                                <p class="footer_text_sp"><a href="#">モーニング</a></p>
-                            </li>
-                        </ul>
-                        <ul id="footer_flex_sp_right">
-                            <li>
-                                <p class="footer_text_sp"><a href="#">ドリンク</a></p>
-                            </li>
-                            <li>
-                                <p class="footer_text_sp"><a href="#">スイーツ</a></p>
-                            </li>
-                            <li>
-                                <p class="footer_text_sp"><a href="#">季節限定</a></p>
-                            </li>
-                        </ul>
-                    </div>
-                    <ul id="footer_sub_menu_flex_sp">
-                        <li>
-                            <p class="footer_text_sp"><a href="#">店舗情報</a></p>
-                        </li>
-                        <li>
-                            <p class="footer_text_sp"><a href="#">トップページへ</a></p>
-                        </li>
-                    </ul>
-                    <p id="copy" class="footer_text_sp"><small>&copy; CAFE AGREA</small></p>
-
+                    <p id="footer_copyright" class="regularFonts"><small>&copy; CAFE AGREA</small></p>
                 </div>
             </div>
-        </div>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script type="text/javascript" src="common/js/cafe.js"></script>
+    <script src="common/js/cafe.js"></script>
 </body>
-
 </html>

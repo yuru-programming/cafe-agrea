@@ -87,6 +87,12 @@ $('#menu_head_sp, #menu_head_pc').each(function(){
   }
 });
 });
+
+$(".menu-trigger").on("click", function () {
+  $(".menu-trigger").toggleClass("close");
+  $(".nav-wrapper").toggleClass("fade");
+});
+
 /*$(window).on('load resize', function(){
   let biggestWidth = "0";
   $("#header_message_whole *").each(function(){

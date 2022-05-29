@@ -12,10 +12,6 @@ body {
     width: 100vw;
 }
 
-p {
-    white-space: nowrap;
-}
-
 li {
     list-style-type: none;
 }
@@ -26,11 +22,6 @@ img {
 
 .sp_main-image, .pc_main-image {
     width: 100vw;
-}
-
-.seasonal_bg img {
-    width: 100vw;
-    opacity: 0.25;
 }
 
 .concept_icon {
@@ -72,3 +63,19 @@ body {
     font-style: normal;
     font-display: swap;
   }
+
+  .entrance_img_pc {
+    background-image: url("../../images/cafe_pc-comp-assets/entrance_image.jpg");
+    width: 100vw;
+    height: 34.4vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.entrance_img_sp {
+    background-image: url("../../images/cafe_sp-comp-assets/entrance_image.jpg");
+    width: 100vw;
+    height: 501px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
