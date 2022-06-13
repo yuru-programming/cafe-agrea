@@ -1,81 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: #000;
+  color: #000;
 }
 
 body {
-    background-color: #fffade;
-    width: 100vw;
+  background-color: #fffade;
+  width: 100vw;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
-.sp_main-image, .pc_main-image {
-    width: 100vw;
+.sp_main-image,
+.pc_main-image {
+  width: 100vw;
 }
 
 .concept_icon {
-    width: 10vw;
-    height: 10vh;
-    background-image: url("../../images/cafe_sp-comp-assets/sprite.png");
+  width: 10vw;
+  height: 10vh;
+  background-image: url("../../images/cafe_sp-comp-assets/sprite.png");
 }
 
 body {
-    font-family: "Zen_Maru", "sans-serif";
-    letter-spacing: 0.1em;
+  font-family: "Zen_Maru", "sans-serif";
+  letter-spacing: 0.1em;
 }
 
 .regularFonts {
-    font-family: "Zen_Maru_Regular", "sans-serif";
+  font-family: "Zen_Maru_Regular", "sans-serif";
 }
 
 .font_courgette {
-    font-family: "Luxurious", "sans-serif";
+  font-family: "Luxurious", "sans-serif";
+}
+
+.main_menu_head_pc {
+  font-weight: normal;
+}
+@font-face {
+  src: url("../../fonts/Luxurious.woff") format("woff");
+  font-family: "Luxurious";
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    src: url("../../fonts/Luxurious.woff") format("woff");
-    font-family: "Luxurious";
-    font-style: normal;
-    font-display: swap;
-  }
+  src: url("../../fonts/Zen_Maru.woff") format("woff");
+  font-family: "Zen_Maru";
+  font-style: normal;
+  font-display: swap;
+}
 
 @font-face {
-    src: url("../../fonts/Zen_Maru.woff") format("woff");
-    font-family: "Zen_Maru";
-    font-style: normal;
-    font-display: swap;
-  }
+  src: url("../../fonts/Zen_Maru_Regular.woff") format("woff");
+  font-family: "Zen_Maru_Regular";
+  font-style: normal;
+  font-display: swap;
+}
 
-  @font-face {
-    src: url("../../fonts/Zen_Maru_Regular.woff") format("woff");
-    font-family: "Zen_Maru_Regular";
-    font-style: normal;
-    font-display: swap;
-  }
-
-  .entrance_img_pc {
-    background-image: url("../../images/cafe_pc-comp-assets/entrance_image.jpg");
-    width: 100vw;
-    height: 34.4vw;
-    background-size: contain;
-    background-repeat: no-repeat;
+.entrance_img_pc {
+  background-image: url("../../images/cafe_pc-comp-assets/entrance_image.jpg");
+  width: 100vw;
+  height: 34.4vw;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .entrance_img_sp {
-    background-image: url("../../images/cafe_sp-comp-assets/entrance_image.jpg");
-    width: 100vw;
-    height: 501px;
-    background-size: contain;
-    background-repeat: no-repeat;
+  background-image: url("../../images/cafe_sp-comp-assets/entrance_image.jpg");
+  width: 100vw;
+  height: 501px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
